@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/tytul.unity
+    guid: e2c6828f481597f429094a98bf439470
+  - enabled: 1
+    path: Assets/Scenes/poziom1.unity
+    guid: b87230e0ee381e34396d842dd1a66126
+  - enabled: 1
+    path: Assets/Scenes/smierc.unity
+    guid: 77f27f0576a31c74fb8e5b815fbd3895
+  - enabled: 1
+    path: Assets/Scenes/endingCutscene.unity
+    guid: 22a700f227e090c41b9c0862436b76fa
+  - enabled: 1
+    path: Assets/Scenes/credits.unity
+    guid: 810ab34fdf7d27843bad31b900117f17
   m_configObjects: {}

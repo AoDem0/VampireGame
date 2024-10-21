@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;  
 
 public class health : MonoBehaviour
 {
@@ -30,6 +31,7 @@ public class health : MonoBehaviour
 
         if(zdrowie == 0){
             Debug.Log("SMIERC");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
