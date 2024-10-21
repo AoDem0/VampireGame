@@ -16,7 +16,7 @@ public class followPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        offset = new Vector3(player.position.x, player.position.y + 2, -10f);
+        offset = new Vector3(player.position.x, player.position.y + 4, -10f);
         transform.position = Vector3.Slerp(transform.position, offset, followSpeed);
     }
 }
