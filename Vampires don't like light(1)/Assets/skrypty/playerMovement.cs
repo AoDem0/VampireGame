@@ -24,5 +24,6 @@ public class playerMovement : MonoBehaviour
         vec = new Vector2(moveX, 0);
         var movement = vec.normalized * speed;
         rb.velocity = movement;
+        
     }
 }
