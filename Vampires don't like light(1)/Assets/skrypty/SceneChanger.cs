@@ -9,8 +9,8 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-        public void Credits()
+        public void Again()
     {
-        SceneManager.LoadScene("credits");
+        SceneManager.LoadScene("poziom1");
     }
 }
