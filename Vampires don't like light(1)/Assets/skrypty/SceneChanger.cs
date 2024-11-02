@@ -7,9 +7,8 @@ public class SceneChanger : MonoBehaviour
 {
     public AudioSource SFXSource;
     public AudioClip click;
-    // void Start()
-    // {
-    //     SFXSource.PlayOneShot(burn);
+
+
     public void GameStart()
     {   
         SFXSource.PlayOneShot(click);
@@ -27,4 +26,5 @@ public class SceneChanger : MonoBehaviour
         Debug.Log("Quit");
         Application.Quit();
     }
+
 }

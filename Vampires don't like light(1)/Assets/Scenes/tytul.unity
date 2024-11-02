@@ -178,6 +178,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SFXSource: {fileID: 40314413}
   click: {fileID: 8300000, guid: 6e8772b49f34d402a90016ed445d8a2f, type: 3}
+  anim: {fileID: 0}
+  tranzTime: 1
 --- !u!114 &40314410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -794,6 +796,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SFXSource: {fileID: 776152511}
   click: {fileID: 8300000, guid: 6e8772b49f34d402a90016ed445d8a2f, type: 3}
+  anim: {fileID: 0}
+  tranzTime: 1
 --- !u!114 &776152508
 MonoBehaviour:
   m_ObjectHideFlags: 0

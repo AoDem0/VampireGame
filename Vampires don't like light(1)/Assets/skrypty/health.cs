@@ -12,7 +12,9 @@ public class health : MonoBehaviour
     audioManager audioManager;
 
     private void Awake(){
-        audioManager = GameObject.FindGameObjectWithTag("audio").GetComponent<audioManager>();
+        if(audioManager != null){
+            audioManager = GameObject.FindGameObjectWithTag("audio").GetComponent<audioManager>();
+            }
     }
 
     void Update()
@@ -31,7 +33,7 @@ public class health : MonoBehaviour
         public void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.layer == 3){
-            SceneManager.LoadScene("credits");
+            SceneManager.LoadScene("end");
         }
         else
         {
