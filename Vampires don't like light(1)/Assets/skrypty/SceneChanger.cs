@@ -13,7 +13,7 @@ public class SceneChanger : MonoBehaviour
     public void GameStart()
     {   
         SFXSource.PlayOneShot(click);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("dialog");
        
     }
         public void Again()
