@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;  
@@ -12,9 +11,7 @@ public class health : MonoBehaviour
     audioManager audioManager;
 
     private void Awake(){
-        if(audioManager != null){
             audioManager = GameObject.FindGameObjectWithTag("audio").GetComponent<audioManager>();
-            }
     }
 
     void Update()

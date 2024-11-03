@@ -2047,7 +2047,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5267889978754335664, guid: 22dd94851c8e6454296d9bcb73a14f61, type: 3}
       propertyPath: moveSpeed
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5267889978754335664, guid: 22dd94851c8e6454296d9bcb73a14f61, type: 3}
       propertyPath: points.Array.data[0]
