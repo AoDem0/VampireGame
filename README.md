@@ -1,4 +1,4 @@
-# MiniGra
+# MiniGame
 Vampires don't like light
 
 this is my 3rd project in Unity (first one done by myself)
