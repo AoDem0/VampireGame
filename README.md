@@ -1,5 +1,4 @@
-# MiniGame
-Vampires don't like light
+# Vampires don't like light
 ## Description 
 Game is made with theme "latern" in 2 weeks with programming and graphics made by me. Game is very simple, you want to get to your coffin before sun rises. You need to avoid touching any light or you can get very hurt.
 ## Game mechanics
